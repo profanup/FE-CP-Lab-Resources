@@ -15,10 +15,10 @@ int main()
 	   {
 	       total=m1+m2+m3;
 	       percentage=total/3.0;
-	       grade=floor(percentage);
+	       grade=floor(percentage)/10;
 	       printf("Total marks scored : %d",total);
 	       printf("\nPercentage : %.2f \n",percentage);
-	       switch(grade/10)
+	       switch(grade)
 	       {
 		     case 10:
 		     case 9 :
