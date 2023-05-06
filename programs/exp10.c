@@ -1,4 +1,4 @@
-/*Expt.10: Write a program to generate the series of prime  numbers from 1 to 
+-/*Expt.10: Write a program to generate the series of prime  numbers from 1 to 
   entered limit. */
 
 #include<stdio.h>

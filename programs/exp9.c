@@ -12,12 +12,12 @@ int main()
 
     i=3;
     while(i<=terms)
-  	{
+    {
        f3=f1+f2;
        printf("%d\n",f3);
        f1=f2;
        f2=f3;
-	   i++;
+       i++;
     }
     return(0);
 }
