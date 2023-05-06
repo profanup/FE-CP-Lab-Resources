@@ -23,7 +23,7 @@ int main()
 		     case 10:
 		     case 9 :
 		     case 8 :
-		     case 7 :printf("DIXTINCTION\n"); break;
+		     case 7 :printf("DISTINCTION\n"); break;
 		     case 6 :printf("GRADE = FIRST CLASSn\n"); break;
 		     case 5 :printf("GRADE = SECOND CLASS\n"); break;
 		     case 4 :printf("GRADE = PASS CLASS\n"); break;
