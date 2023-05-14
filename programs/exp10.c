@@ -14,15 +14,15 @@ int main()
        	b=(int)(sqrt(num));
        	flag=1;
        	for(d=2;d<=b;d++)
+	{
+	    if(num%d==0)
 	    {
-	   	    if(num%d==0)
-	    	{
 	      		flag=0;
 	     		 break;
-	   	    }
+	    }
         }
-	    if(flag==1)
-	  	    printf("%6d\n",num);
+	if(flag==1)
+	  printf("%6d\n",num);
        }
      return(0);
 }
