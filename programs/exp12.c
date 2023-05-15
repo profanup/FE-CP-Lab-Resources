@@ -22,14 +22,14 @@ int main()
 			min=arr[i];
 			minloc=i;
 		}
-        if(arr[i]>max)
-        {
-	        max=arr[i];
-	        maxloc=i;
-        }
+        	if(arr[i]>max)
+        	{
+	       		max=arr[i];
+	        	maxloc=i;
+        	}
 	}
-    printf("\nGreatest value is %d found at location %d",max,maxloc);
-    printf("\nSmallest value is %d found at location %d\n",min,minloc);
-    return(0);
+    	printf("\nGreatest value is %d found at location %d",max,maxloc);
+    	printf("\nSmallest value is %d found at location %d\n",min,minloc);
+    	return(0);
 } 
 
